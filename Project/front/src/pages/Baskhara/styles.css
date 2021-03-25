@@ -1,0 +1,71 @@
+.bask-container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+    font-family: rajdhani;
+    background-image: url('../../assets/bgprincipal.jpg');
+}
+
+.bask-box{
+    padding: 40px;
+    width: 450px;
+    height: 650px;
+    text-align: center;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid rgb(247,71,90);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.titulo-bask{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.inputsbk{
+    width: 35%;
+    height: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.button-bask{
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #1877f2;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button-bask:hover{
+    background-color: #f74247;
+}
+
+.voltar-bask{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;   
+}
+
+
